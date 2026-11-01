@@ -1,0 +1,26 @@
+{
+  "name": "semantic-pair",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Semantic Pair — dual remote brainstorm tool for Kiroween 2026",
+  "author": "ZhuoQI Yin",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "node --test lib/cues.test.mjs"
+  },
+  "dependencies": {
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.0"
+  }
+}

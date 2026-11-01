@@ -1,0 +1,40 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# next.js
+.next/
+out/
+
+# production
+build/
+dist/
+
+# env / secrets
+.env
+.env.*
+!.env.example
+
+# debug / logs (keep log/steps.md tracked)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+!log/steps.md
+
+# typescript
+*.tsbuildinfo
+
+# ide / os
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# vercel / coverage
+.vercel
+coverage/
+
+# NOTE: Do NOT ignore .kiro — it is intentional project deliverable for Kiroween
